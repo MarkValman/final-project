@@ -11,6 +11,10 @@ The purpose of this project is to develop an AI chatbot that assists students wi
 4. **The server receives the user prompt and uses Azure OpenAI service to process and understand the query**
 5. **The server use indexes from raw data to customize generative AI responses and uses the OpenAI service to create an answer**
 6. **The web app presents the response to user**
+
+## Architectural diagram
+
+![Moodle - AI Search Engine (1)](https://github.com/user-attachments/assets/48a15a0a-dfa7-40b0-952c-1dff31e01143)
   
 ## Components
 
@@ -29,10 +33,6 @@ The purpose of this project is to develop an AI chatbot that assists students wi
   
 5. **Azure CosmosDB**
    - Azure Cosmos DB is NoSQL database solution. It will store chat history and list of available courses for each user.
-  
-## Architectural diagram
-
-![Moodle - AI Search Engine](https://github.com/user-attachments/assets/16cb316f-f5b2-4c15-a87d-b1ea3c309ab7)
 
 ## Use Cases
 
